@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Calendly//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTAMP:20190209T194334Z
+UID:calendly-51582259
+DTSTART:20190305T161500Z
+DTEND:20190305T164500Z
+CLASS:PRIVATE
+DESCRIPTION:Event Name: 30 Minute Meeting\nDate & Time: 10:15am - 10:45am (
+ Central Time - US & Canada) on Tuesday\, March 5\, 2019\n\nPhone call or Z
+ oom session: Phone call\n\nNeed to make changes to this event?\nCancel: ht
+ tps://calendly.com/cancellations/CEC3DIF6HJOJC4E3\nReschedule: https://cal
+ endly.com/reschedulings/CEC3DIF6HJOJC4E3\n
+SUMMARY:30 Minute Meeting with Amber Vaughan
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

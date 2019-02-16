@@ -1,13 +1,14 @@
 <nav>
   <div class="nav-wrapper">
-    <a href="/views/index.handlebars" class="brand-logo">Mongo Scraper</a>
+    <a href="/" class="brand-logo">Mongo Scraper</a>
     <ul class="right hide-on-med-and-down">
       <li><a href="/" class="waves-effect waves-light btn">Home</a></li>
-      <li><a href="/saved" class="waves-effect waves-light btn">Saved Articles <i class="material-icons right">cloud</i></a></li>
+      <li><a class="waves-effect waves-light btn">Saved Articles <i class="material-icons right">cloud</i></a></li>
       <li><a class="waves-effect waves-light btn-large purple lighten-1" id="scrape">Scrape New Articles!</a></li>
     </ul>
   </div>
 </nav>
+
 
 <div class="container">
   <img src='/assets/images/background.jpg' alt='Img' width='100%' height='100%'>
@@ -15,17 +16,17 @@
 
 <div class="container">
   <div class="col s12 m7">
-    <h2 class="header">Scraped Articles</h2>
+    <h2 class="header">Saved Articles</h2>
     <div class="card horizontal cyan lighten-4">
       <div id="notes"></div>
-      <div id="articles" class="card-stacked">
+      <div id="saved" class="card-stacked">
         <div class="card-content">
-          <p>Uh oh. Looks like we don't have any new articles.</p>
-        </div> 
+
+        </div>
       </div>
     </div>
-    
+
   </div>
 </div>
 
-<script src="/assets/js/index.js"></script>
+<script src="/assets/js/saved.js"></script>
